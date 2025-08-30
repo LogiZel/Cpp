@@ -4,16 +4,16 @@
 using namespace std;
 int main()
 {
-    int v1;
-    vector<int>v2;
-    cout<<"Enter the number:"<<endl;
+    string v1;
+    vector<string>v2;
+    cout<<"Enter the strings:"<<endl;
     while(cin>>v1)
     {
         v2.push_back(v1);
     }
     cout<<endl;
     cout<<"The vector is:"<<endl;
-    for(int i:v2)
+    for(string i:v2)
     {
         cout<<i<<" ";
     }
