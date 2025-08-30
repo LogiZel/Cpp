@@ -13,7 +13,7 @@ int main()
     }
     cout<<endl;
     cout<<"The vector is:"<<endl;
-    for(string i:v2)
+    for(auto i:v2)
     {
         cout<<i<<" ";
     }
