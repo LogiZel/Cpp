@@ -1,0 +1,1 @@
+Closed streams (file.close()) right after creating/opening for safety.\n
